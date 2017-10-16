@@ -1,11 +1,12 @@
 /*MAIN STUFF */
 .main-header {
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   height: 100px;
   padding: 20px;
-  color: white;
+  color: #1d26aa;
   text-align: center;
-  font-size: 40px;
+  font-size: 60px;
+  font-family: Quicksand;
 }
 html{
 	background-color: white;
@@ -13,20 +14,20 @@ html{
 h1{
 	color: navy;
 	text-align: center;
-	font-family: verdana;
+	font-family: Quicksand;
 	font-size: 40px;
 }
 
 .section{
 	color: navy;
 	text-align: center;
-	font-family: verdana;
+	font-family: Quicksand;
 	font-size: 25px;
 	padding: 10;
 }
 
 .text{
-	font-family: verdana;
+	font-family: Quicksand;
 	font-size: 18px;
 	text-align: center;
 }
@@ -41,7 +42,7 @@ h1{
 
 /* Style the links inside the navigation bar */
 .topnav a {
-	font-family: verdana;
+	font-family: Quicksand;
     float: left;
     display: block;
     color: #f2f2f2;
@@ -70,6 +71,7 @@ h1{
 
 /* TABLE STUFF */
 table{
+    font-family: Quicksand;
 	background-color: white;
 	margin: 0px auto;
 	box-shadow: 0 4px 8px 0 grey;
@@ -109,6 +111,7 @@ tr:hover {
 .card {
 	background-color: white;
     box-shadow: 0 4px 8px 0 grey;
+    font-family: Quicksand;
 }
 
 /* Some left and right padding inside the container */
@@ -121,10 +124,12 @@ tr:hover {
     content: "";
     clear: both;
     display: table;
+
 }
 
 .clubcontact {
     color: grey;
+    font-family: Quicksand;
 }
 
 .button {
@@ -135,6 +140,7 @@ tr:hover {
     color: white;
     background-color: #000;
     text-align: center;
+    font-family: Quicksand;
     cursor: pointer;
     width: 100%;
 }
@@ -147,18 +153,21 @@ margin: auto;
 padding: 10px;
 background-color: white;
 border-radius: 10px;
+font-family: Quicksand;
 }
 
 label {
 width: 150px;
 display: inline-block;
 color: navy;
+font-family: Quicksand;
 }
 
 #quiztitle {
 margin-top: 0;
 border: 2px solid black;
 padding: 5px;
+font-family: Quicksand;
 height: 100px;
 }
 
@@ -170,6 +179,7 @@ height: 100px;
     color: white;
     background-color: navy;
     text-align: center;
+    font-family: Quicksand;
     align-items: center;
     cursor: pointer;
     width: 50%;
