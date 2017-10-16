@@ -1,0 +1,106 @@
+<link rel="stylesheet" type="text/css" href="marketingmain.css" href="findmyClub.css" media="screen" />
+
+<html>
+	<body>
+	<div class="main-header"> Dalton Marketing </div>
+		<div class="topnav" id="myTopnav">
+		  <a href="marketingmain.html">Home</a>
+		  <a href="clublist.html">Club List</a>
+		  <a class="currentpage" href="findmyclub.html">Find My Club</a>
+		  <a href="meetingschedule.html">Upcoming Club Meetings</a>
+		  <a href="aboutus.html">About Us</a>
+		</div>
+
+		<div class="section"> Find My Club </div>
+
+<!-- 		<div> Question 1: Would you rather discuss an issue within a club setting or go out and try to fix it? </div>
+			<button class="quizQ" "> discuss </button>
+			<button class= "quizQ"> fix </button>
+
+			<script type="text/javascript">
+				
+			</script> -->
+
+		<!DOCTYPE html>
+<html>
+<head>
+<title>Which Austin Musical Group...</title>
+
+</head>
+<body>
+<div id="quizdiv">
+<div id="quiztitle"><h2>What club is right for you?</h2></div>
+
+<form  id="form1">
+<p>Question 1?</p></td><td>
+<label><input type="radio" name="age" id="young" value="1" /> A</label>
+<label><input type="radio" name="age" id="mid" value="2" /> B </label>
+<label><input type="radio" name="age" id="old" value="3" /> C </label>
+
+<p>Question 2?</p>
+<label><input type="radio" name="activity" id="party" value="1" /> X</label>
+<label><input type="radio" name="activity" id="rock" value="2" /> Y </label>
+<label><input type="radio"  name="activity"id="beer" value="3" /> Z </label>
+
+<p>Question 3?</p>
+<label><input type="radio" name="genre" id="rock2" value="1" />A</label>
+<label><input type="radio" name="genre" id="indie" value="2" />B</label>
+<label><input type="radio" name="genre" id="country" value="3" />C</label>
+
+
+<button id="submitbutton" type="submit" value="Submit">Submit</button>
+</td></tr>
+</form>
+
+<p id="answer"></p>
+<p id="answer2"></p>
+</div>
+<script>
+ 
+    
+	   document.getElementById("form1").onsubmit=function() {
+	   
+	   age = parseInt(document.querySelector('input[name = "age"]:checked').value);
+	   
+	  
+	  activity = parseInt(document.querySelector('input[name = "activity"]:checked').value);
+	   
+	  genre = parseInt(document.querySelector('input[name = "genre"]:checked').value);
+	   
+	   total= age + activity + genre;
+	   
+	  
+	   document.getElementById("answer").innerHTML = total;
+	   
+	   
+
+	   if(total < 4) {
+			document.getElementById("answer2").innerHTML = "You got Quiet Company.";
+		}
+
+   if(total >=4 && total < 7) {
+document.getElementById("answer2").innerHTML = "You got Spoon.";
+}
+	
+	if(total >=7) {
+document.getElementById("answer2").innerHTML = "You got Willie Nelson.";
+}   
+
+
+		   
+	   return false; // required to not refresh the page; just leave this here
+	   }// end the submit function
+	
+
+</script>
+
+
+
+</body>
+</html>
+
+		<div>
+			
+		</div> 
+	</body>
+</html>
